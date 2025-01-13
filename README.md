@@ -1,4 +1,4 @@
-* # [ÄlyX](https://www.cc.puv.fi/~e2203076/project1/index1.html) is a fictional company based in Vaasaan, specializing in the creation of wooden puzzle games. This website is a basic example created using HTML5 and CSS, aimed to showcase the structure of a company website. Please note that this is not a fully functional website, but rather a demonstration of how the site might look using the foundations of HTML and CSS.
+* # [ÄlyX](https://www.cc.puv.fi/~e2203076/project1/index1.html) is a fictional company based in Vaasa, specializing in the creation of wooden puzzle games. This website is a basic example created using HTML5 and CSS, aimed to showcase the structure of a company website. Please note that this is not a fully functional website, but rather a demonstration of how the site might look using the foundations of HTML and CSS.
 
 ## Features
  - Home Page A welcoming home page that introduces the company and its mission of creating quality wooden puzzles. The page features the company logo (either provided or custom-designed).
