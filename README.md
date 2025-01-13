@@ -7,7 +7,8 @@
  - Contact Information A contact page that includes the company’s physical address, phone number, and email. The address is: ÄlyX Oy, Pulmatie 100, 00101 Helsinki, Finland Phone: 555 123 4567 Email: konttori@alyx.fi
 
 ## Technologies Used
- - HTML5: Used for the structure and content of the website. CSS: Used for styling and layout, ensuring the website is responsive and visually appealing. Contact Form: Simple form in HTML for reselling inquiries.
+ - HTML5: Used for the structure and content of the website.
+ - CSS: Used for styling and layout, ensuring the website is responsive and visually appealing. 
 
 # Important Note
 This project is an example built using the basics of HTML5 and CSS. It is not a fully functional website, but rather serves as a demonstration of the layout and structure of a possible business website for ÄlyX. The purpose of this project was to showcase the essential elements of web design using HTML5 and CSS and to give a visual representation of how the final website might appear.
