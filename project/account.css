@@ -1,0 +1,402 @@
+
+* {box-sizing: border-box;}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#050303;
+    background-image: url(./kuvat/headerpic.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    color: aliceblue;
+    
+}
+
+.header {
+    
+    padding-top: 64px;
+    padding-bottom: 10px;
+}
+
+.nav-wrapper {
+    display: flex;
+    margin-bottom: 20px;
+}
+.container-wide {
+    margin: 0 auto;
+    width: 1490px;
+    padding: 0 15px;
+
+}
+
+
+.container{
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+ 
+}
+
+.row{
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0%;
+    list-style: none;
+    font-family: 'Merriweather Sans';
+    font-weight: 500;
+    font-size: 20px;
+
+}
+
+.nav li + li{
+    margin-left: 50px;
+
+}
+
+.nav a {
+    color:black;
+    text-decoration: none;
+    transition: color 0.2s ease-in;
+}
+
+.nav a:hover{
+    color:#A71300;
+    
+    
+}
+
+
+.account {
+   
+    font-size: 20px;
+    font-family: 'Merriweather Sans';
+    font-weight: 500;;
+    text-decoration: none;
+    color:black;
+    margin-left: 30px;
+    transition: color 0.2s ease-in;
+}
+
+.account:hover{
+    color: #A71300;
+    
+}
+
+.nav-button{
+    position: relative;
+    z-index: 9;
+    background-color:#ab9100;
+    width: 42px;
+    height: 5px;
+    border: none;
+    cursor: pointer;
+    display: none;
+
+}
+
+.nav-button::before{
+    position: absolute;
+    left: 0;
+    top: -10px;
+    content: "";
+    display: block;
+    width: 42px;
+    height: 5px;
+    background-color: #ab9100;
+}
+.nav-button::after{
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    content: "";
+    display: block;
+    width: 42px;
+    height: 5px;
+    background-color: #ab9100;
+}
+.mobile-nav{
+    z-index: 8;
+    display: none;
+    /*display: flex;*/
+    flex-direction: column;
+    justify-content:space-between ;
+    padding: 70px 70px 50px 30px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 320px;
+    height: 100%;
+    background-color: #ffffffd2;
+
+}
+
+.mobile-nav  .nav,
+.mobile-nav .account
+{
+    display: block;
+}
+
+.mobile-nav .nav ul{
+    flex-direction: column;
+}
+
+.mobile-nav .nav ul li{
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+
+.account {
+   
+    font-size: 20px;
+    font-family: 'Merriweather Sans';
+    font-weight: 500;;
+    text-decoration: none;
+    color:black;
+    margin-left: 30px;
+    transition: color 0.2s ease-in;
+}
+
+.account:hover{
+    color: #A71300;
+    }
+
+/*sign in form*/
+
+
+    .form-container{
+        height: 90vh;
+        padding: 20px;
+    }
+    .user {
+        width: 100px;
+        height: 100px;
+    }
+    .forgot-link{
+        display: block;
+        text-decoration: none;
+        margin-bottom: 10px;
+        font-size: 15px;
+        color:#ab9100;
+        font-weight: 700;
+        transition: -2s;
+    }
+    
+    .forgot-link:hover{
+        color: #A71300;
+    }
+    
+    .form-box{
+        width: 300px;
+        padding: 50px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        position: absolute;
+        background-color: #fff;
+        text-align: center;
+        box-shadow: -15px 53px 68px -9px #A71300;
+        border-top-left-radius: 25%;
+        border-bottom-right-radius: 25%;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    
+    .form-box h1{
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 20px;
+        color: #ab9100;
+    }
+    
+    .form-box input[type="text"]:focus, .form-box input[type="password"]:focus{
+        border-color: #ab9100;
+    }
+    
+    .form-box input[type="text"], .form-box input[type="password"]{
+        border: 0;
+        background: none;
+        display: block;
+        margin: 20px auto;
+        font-size: 16px;
+        border: none;
+        border-bottom:  2px solid #A71300;
+        padding: 14px 15px;
+        width: 210px;
+        outline: none;
+        
+    }
+    .form-box input[type="submit"]{
+        border: 0;
+        background: none;
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+        border: 2px solid #ab9100;
+        width: 210px;
+        height: 30px;
+        outline: none;
+        border-radius: 24px;
+        transition: 0.25s;
+        color: black;
+        font-size: 18px;
+    }
+    .form-box input[type="submit"]:hover{
+        background: #A71300;
+        color: #E8E0E0;
+    }
+    
+    .form-box input{
+        width:210px;
+        height: 25px;
+        margin-bottom: 10px;
+        text-transform: capitalize;
+        text-align: left;
+    
+    }
+
+
+
+
+
+    /*footer*/
+
+.footer-container{
+    margin-bottom: 60px;
+}
+footer {
+    padding: 30px 20px;
+    background: #ab9100;
+    color: #050303;
+ }
+ .footer-col {
+    width: 25%;
+    float: left;
+    font-size: 20px;
+    font-family: 'Merriweather Sans';
+    font-style: bold;
+    
+ }
+ .footer-col a {
+    font-size: 20px;
+    font-family: 'Merriweather Sans';
+    font-style: bold;
+    color: #050303;
+    text-decoration: none;
+ }
+
+ .footer-col a:hover{
+    text-decoration: underline;
+    color:#E8E0E0;
+ }
+
+ .footer-col:last-child {
+    text-align: right;
+ }
+ .payments {
+    text-align: center;
+ }
+ .payments a {
+    padding: 0 7px; 
+    
+ }
+
+
+
+
+ /*table*/
+/*table*/
+
+.tb-container{
+    
+
+    min-width: 320px;
+    max-width: 100%;
+    padding: 200px 15px;
+    box-sizing: border-box;
+}
+
+table {
+   border-collapse: collapse;
+   width: 100%;
+   margin: 20px 0;
+}
+
+table td, table th {
+   padding: 10px;
+   border: 1px solid #cbbdbd;
+}
+
+tr:nth-child(even){
+   background-color: #f0f4c3
+}
+
+       /*footer*/
+
+.footer-container{
+    margin-bottom: 60px;
+}
+footer {
+    padding: 30px 20px;
+    background: #ab9100;
+    color: #050303;
+ }
+ .footer-col {
+    width: 25%;
+    float: left;
+    font-size: 20px;
+    font-family: 'Merriweather Sans';
+    font-style: bold;
+    
+ }
+ .footer-col a {
+    font-size: 20px;
+    font-family: 'Merriweather Sans';
+    font-style: bold;
+    color: #050303;
+    text-decoration: none;
+ }
+
+ .footer-col a:hover{
+    text-decoration: underline;
+    color:#E8E0E0;
+ }
+
+ .footer-col:last-child {
+    text-align: right;
+ }
+ .payments {
+    text-align: center;
+ }
+ .payments a {
+    padding: 0 7px; 
+    
+ }
+
+
+
+ 
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
